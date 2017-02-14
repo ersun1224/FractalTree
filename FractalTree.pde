@@ -13,15 +13,6 @@ public void draw()
 	line(320,480,320,380);   
 	drawBranches(320,380,90,3*(float)Math.PI/2);
 } 
-/*public void drawBranches(float x,float y, float branchLength, float angle) {   
-	line(x,y,(x-branchLength*cos(angle)),y-branchLength*sin(angle));
-	line(x,y,(x+branchLength*cos(angle)),y-branchLength*sin(angle));
-
-	if(branchLength>10) {
-		drawBranches((x-branchLength*cos(angle)),(y-branchLength*sin(angle)),branchLength-15,angle);
-		drawBranches((x-branchLength*cos(angle)),(y-branchLength*sin(angle)),branchLength-15,angle);
-	}
-} */
 
 
 public void drawBranches(int x,int y, double branchLength, double angle) 
